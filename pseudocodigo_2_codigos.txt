@@ -1,0 +1,40 @@
+//pseudocódigo do readPid.sh
+
+algoritmo "readPid.sh"
+
+var py_PidProcess, name_pid
+
+inicio
+
+	Enquanto (verdade) faça
+		leia (name_pid)
+		py_PidProcess <- pid
+		Se (py_PidProcess = name_pid) então
+			imprima ("1: It is alive")
+		Senão então
+			imprima "1: It is dead"
+			executa(identifyPid.py)
+		fim Se
+	fim Enquanto
+
+fimalgoritmo
+
+
+//pseudocódigo do identifyPid.py
+
+algoritmo "identifyPid.py"
+var x, pid
+
+inicio
+	x <- 5
+	pid <- id
+
+	abrir("arquivo.pid")
+
+	para i de 0 até 3 faça
+		imprima ("2: I am alive")
+		aguadar(x)
+	fim para
+	imprima ("2: I gonna die now, bye")
+
+fimalgoritmo

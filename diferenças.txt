@@ -1,0 +1,1 @@
+As diferenças que eu fiz, foi usar umas funções comandos prontos no shell e funções prontas do python que não possuem no pseudocodigo, mas a ideia geral eu mantive. 
